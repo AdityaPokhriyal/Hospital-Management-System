@@ -1,0 +1,43 @@
+def select_type():
+    a="y"
+    while a == "y":    
+        print("1. Ophthalmologist : ......................Deals with diseases and disorders of eyes")
+        print("2. Nephrologist : .........................Deals with kidney related diseases")
+        print("3. Otolaryngologist\ENT specialist : ......Deals with problems of ear-nose-throat")
+        print("4. Neurologist : ..........................Deals with brain spine nerve medical conditions")
+        print("5. Gastroenterologist : ...................Deals with the digestive system problems" )
+        print("6. Endocrinologist : ......................Deals with the endocrine glands\hormone secretion. Eg.diabetes")
+        print("7. Dermatologist : ........................Deals with skin-nails-hair related problems")
+        print("8. Cardiologist : .........................Deals with the heart and blood vessels")
+        print("9. Psychiatrist : .........................Deals with behaviour problems")
+        print("10. Surgeon : .............................Specialist in surgery in specialized areas")
+        print("11. Gynecologist : ........................Deals with women's reproductive health")
+        print("12. Pediatrician : ........................Deals with young patients")
+        choice = int(input("Enter your interest:"))
+        if choice == 1:
+            Ophthalmologist()
+        elif choice == 2:
+            Nephrologist()
+        elif choice == 3:
+            Otolaryngologist()
+        elif choice == 4:
+            Neurologist()
+        elif choice == 5:
+            Gastroenterologist()
+        elif choice == 6:
+            Endocrinologist()
+        elif choice == 7:
+            Dermatologist()
+        elif choice == 8:
+            Cardiologist()
+        elif choice == 9:
+            Psychiatrist()
+        elif choice == 10:
+            Surgeon()
+        elif choice == 11:
+            Gynecologist()
+        elif choice == 12:
+            Pediatrician()
+        else:
+            print("Invalid Choice!!!!")
+        a = input("do you want to choose?(y/n)")
